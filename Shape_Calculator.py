@@ -31,3 +31,8 @@ class ShapeCalculator:
         if not self.shapes:
             return None
         return max(self.shapes, key=lambda shape: shape.area())
+    def find_smallest_shape(self):
+        """Find the shape with the smallest area."""
+        if not self.shapes:
+            return None
+        return min(self.shapes, key=lambda shape: shape.area())
