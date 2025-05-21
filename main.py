@@ -1,5 +1,4 @@
 from Shape_Rectangle import Shape,Rectangle
-from Circle import Circle
 from Square import Square
 from Shape_Calculator import ShapeCalculator
 def main():
@@ -9,12 +8,10 @@ def main():
     # Create various shapes
     rect = Rectangle(5, 10)
     square = Square(7)
-    circle = Circle(4)
     
     # Add shapes to calculator
     calculator.add_shape(rect)
     calculator.add_shape(square)
-    calculator.add_shape(circle)
     
     # Calculate metrics
     total_area = calculator.total_area()
