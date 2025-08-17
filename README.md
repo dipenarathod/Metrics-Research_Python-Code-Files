@@ -4,7 +4,7 @@ Python files to showcase metric results and verify if the code-calculated value 
 
 The table comparing the manually calculated values and tool calculated values is in the paper (Section 6.2 - Results of Goal 2 – Correct Metrics Calculation)
 
-Manual calculations for Square.py can be found in 'Square - Calculations.pdf'
+- Manual calculations for Square.py can be found in 'Square - Calculations.pdf'
 
-Manual calculations for Shape_Rectangle.py can be found in 'Shape_Rectangle - Calculations.pdf'
+- Manual calculations for Shape_Rectangle.py can be found in 'Shape_Rectangle - Calculations.pdf'
 
