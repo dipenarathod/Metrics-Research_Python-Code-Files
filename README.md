@@ -1,15 +1,10 @@
-# Metrics Research_Python Code Files
-Python files to showcase metrics result and verify if the code calculated value matches manual calculations
+# Metrics Research_Python Code Files for my SEET 2025 paper - Analyzing and Visualizing Software Quality of Code in GitHub Repositories Using AST-Based Metrics
 
-Halstead metrics
-Unique operators (n1): operators like =, +, **
-Unique operands (n2): variables, constants, method names
-Total operators (N1): count of all operator occurrences
-Total operands (N2): count of all operand occurrences
+Python files to showcase metric results and verify if the code-calculated value matches manual calculations.
 
-Metric values for classes (21st May, 2025 - 12:21 PM IST)
+The table comparing the manually calculated values and tool calculated values is in the paper (Section 6.2 - Results of Goal 2 – Correct Metrics Calculation)
 
-Shape_Rectangle.py
+Manual calculations for Square.py can be found in 'Square - Calculations.pdf'
 
-
+Manual calculations for Shape_Rectangle.py can be found in 'Shape_Rectangle - Calculations.pdf'
 
