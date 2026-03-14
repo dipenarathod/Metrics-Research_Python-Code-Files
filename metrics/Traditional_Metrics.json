@@ -163,6 +163,56 @@
             "commit_sha": "956bfd3508054f812a349af1f2adf31c78962929",
             "commit_date": "2025-06-02T07:40:24+00:00",
             "file_count": 4
+        },
+        "37ffaa23788f3c8b857e66edebe47e03c8f7d96d": {
+            "commit_sha": "37ffaa23788f3c8b857e66edebe47e03c8f7d96d",
+            "commit_date": "2025-06-02T07:41:28+00:00",
+            "file_count": 4
+        },
+        "71335bad568ebc0b4f3912ed77efa19f102bf70f": {
+            "commit_sha": "71335bad568ebc0b4f3912ed77efa19f102bf70f",
+            "commit_date": "2025-06-02T07:41:30+00:00",
+            "file_count": 4
+        },
+        "bbc41ae38ead00324bab404d389a0834ff15e1b9": {
+            "commit_sha": "bbc41ae38ead00324bab404d389a0834ff15e1b9",
+            "commit_date": "2025-06-02T07:41:32+00:00",
+            "file_count": 4
+        },
+        "0161bf04ec43fac451e3a1bcfa81aa3712a8c7c7": {
+            "commit_sha": "0161bf04ec43fac451e3a1bcfa81aa3712a8c7c7",
+            "commit_date": "2025-06-02T07:41:35+00:00",
+            "file_count": 4
+        },
+        "9e149dd0d75c52d525c0f521b16201a92834aa53": {
+            "commit_sha": "9e149dd0d75c52d525c0f521b16201a92834aa53",
+            "commit_date": "2025-06-02T12:04:32+00:00",
+            "file_count": 3
+        },
+        "d331e277639f48e4f36ba380333dd282c9040202": {
+            "commit_sha": "d331e277639f48e4f36ba380333dd282c9040202",
+            "commit_date": "2025-06-02T12:04:40+00:00",
+            "file_count": 2
+        },
+        "f795df97fda1d704e595bee6b0e4af15ffdb67bd": {
+            "commit_sha": "f795df97fda1d704e595bee6b0e4af15ffdb67bd",
+            "commit_date": "2025-06-02T12:06:05+00:00",
+            "file_count": 2
+        },
+        "65034926b4ce8e325cbca5ba4d276dfad5862c9e": {
+            "commit_sha": "65034926b4ce8e325cbca5ba4d276dfad5862c9e",
+            "commit_date": "2025-06-02T12:06:19+00:00",
+            "file_count": 2
+        },
+        "a7b0c2d6ab64302224c2180d93c1d39477a0f23f": {
+            "commit_sha": "a7b0c2d6ab64302224c2180d93c1d39477a0f23f",
+            "commit_date": "2025-08-17T13:12:56+00:00",
+            "file_count": 2
+        },
+        "76c3c6e6451a28cb749712fbf736de5eca2e8db8": {
+            "commit_sha": "76c3c6e6451a28cb749712fbf736de5eca2e8db8",
+            "commit_date": "2025-08-17T13:13:48+00:00",
+            "file_count": 2
         }
     },
     "c796da90c817996aa7e0aadade170413eaebb6f6": {
@@ -3385,6 +3435,789 @@
                     "main": 2
                 },
                 "Length of Identifier": 8.71875
+            }
+        }
+    },
+    "37ffaa23788f3c8b857e66edebe47e03c8f7d96d": {
+        "date": "2025-06-02T07:41:28+00:00",
+        "metrics": {
+            "Shape_Calculator.py": {
+                "LOC": 27,
+                "Fan in": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 0,
+                    "isinstance": 1,
+                    "TypeError": 1,
+                    "append": 1,
+                    "len": 2,
+                    "ShapeCalculator.total_area": 0,
+                    "shape.area": 3,
+                    "ShapeCalculator.average_perimeter": 0,
+                    "sum": 1,
+                    "shape.perimeter": 1,
+                    "ShapeCalculator.find_largest_shape": 0,
+                    "max": 1,
+                    "ShapeCalculator.find_smallest_shape": 0,
+                    "min": 1
+                },
+                "Fan out": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 4,
+                    "ShapeCalculator.total_area": 1,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "CC": {
+                    "ShapeCalculator.__init__": 1,
+                    "ShapeCalculator.add_shape": 2,
+                    "ShapeCalculator.total_area": 2,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "Length of Identifier": 5.903225806451613
+            },
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            },
+            "main.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "main": 0,
+                    "ShapeCalculator": 1,
+                    "Rectangle": 1,
+                    "Square": 1,
+                    "calculator.add_shape": 1,
+                    "calculator.total_area": 1,
+                    "calculator.average_perimeter": 1,
+                    "calculator.find_largest_shape": 1,
+                    "print": 1,
+                    "largest.describe": 1
+                },
+                "Fan out": {
+                    "main": 9
+                },
+                "CC": {
+                    "main": 2
+                },
+                "Length of Identifier": 8.71875
+            }
+        }
+    },
+    "71335bad568ebc0b4f3912ed77efa19f102bf70f": {
+        "date": "2025-06-02T07:41:30+00:00",
+        "metrics": {
+            "Shape_Calculator.py": {
+                "LOC": 27,
+                "Fan in": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 0,
+                    "isinstance": 1,
+                    "TypeError": 1,
+                    "append": 1,
+                    "len": 2,
+                    "ShapeCalculator.total_area": 0,
+                    "shape.area": 3,
+                    "ShapeCalculator.average_perimeter": 0,
+                    "sum": 1,
+                    "shape.perimeter": 1,
+                    "ShapeCalculator.find_largest_shape": 0,
+                    "max": 1,
+                    "ShapeCalculator.find_smallest_shape": 0,
+                    "min": 1
+                },
+                "Fan out": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 4,
+                    "ShapeCalculator.total_area": 1,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "CC": {
+                    "ShapeCalculator.__init__": 1,
+                    "ShapeCalculator.add_shape": 2,
+                    "ShapeCalculator.total_area": 2,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "Length of Identifier": 5.903225806451613
+            },
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            },
+            "main.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "main": 0,
+                    "ShapeCalculator": 1,
+                    "Rectangle": 1,
+                    "Square": 1,
+                    "calculator.add_shape": 1,
+                    "calculator.total_area": 1,
+                    "calculator.average_perimeter": 1,
+                    "calculator.find_largest_shape": 1,
+                    "print": 1,
+                    "largest.describe": 1
+                },
+                "Fan out": {
+                    "main": 9
+                },
+                "CC": {
+                    "main": 2
+                },
+                "Length of Identifier": 8.71875
+            }
+        }
+    },
+    "bbc41ae38ead00324bab404d389a0834ff15e1b9": {
+        "date": "2025-06-02T07:41:32+00:00",
+        "metrics": {
+            "Shape_Calculator.py": {
+                "LOC": 27,
+                "Fan in": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 0,
+                    "isinstance": 1,
+                    "TypeError": 1,
+                    "append": 1,
+                    "len": 2,
+                    "ShapeCalculator.total_area": 0,
+                    "shape.area": 3,
+                    "ShapeCalculator.average_perimeter": 0,
+                    "sum": 1,
+                    "shape.perimeter": 1,
+                    "ShapeCalculator.find_largest_shape": 0,
+                    "max": 1,
+                    "ShapeCalculator.find_smallest_shape": 0,
+                    "min": 1
+                },
+                "Fan out": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 4,
+                    "ShapeCalculator.total_area": 1,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "CC": {
+                    "ShapeCalculator.__init__": 1,
+                    "ShapeCalculator.add_shape": 2,
+                    "ShapeCalculator.total_area": 2,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "Length of Identifier": 5.903225806451613
+            },
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            },
+            "main.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "main": 0,
+                    "ShapeCalculator": 1,
+                    "Rectangle": 1,
+                    "Square": 1,
+                    "calculator.add_shape": 1,
+                    "calculator.total_area": 1,
+                    "calculator.average_perimeter": 1,
+                    "calculator.find_largest_shape": 1,
+                    "print": 1,
+                    "largest.describe": 1
+                },
+                "Fan out": {
+                    "main": 9
+                },
+                "CC": {
+                    "main": 2
+                },
+                "Length of Identifier": 8.71875
+            }
+        }
+    },
+    "0161bf04ec43fac451e3a1bcfa81aa3712a8c7c7": {
+        "date": "2025-06-02T07:41:35+00:00",
+        "metrics": {
+            "Shape_Calculator.py": {
+                "LOC": 27,
+                "Fan in": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 0,
+                    "isinstance": 1,
+                    "TypeError": 1,
+                    "append": 1,
+                    "len": 2,
+                    "ShapeCalculator.total_area": 0,
+                    "shape.area": 3,
+                    "ShapeCalculator.average_perimeter": 0,
+                    "sum": 1,
+                    "shape.perimeter": 1,
+                    "ShapeCalculator.find_largest_shape": 0,
+                    "max": 1,
+                    "ShapeCalculator.find_smallest_shape": 0,
+                    "min": 1
+                },
+                "Fan out": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 4,
+                    "ShapeCalculator.total_area": 1,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "CC": {
+                    "ShapeCalculator.__init__": 1,
+                    "ShapeCalculator.add_shape": 2,
+                    "ShapeCalculator.total_area": 2,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "Length of Identifier": 5.903225806451613
+            },
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            },
+            "main.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "main": 0,
+                    "ShapeCalculator": 1,
+                    "Rectangle": 1,
+                    "Square": 1,
+                    "calculator.add_shape": 1,
+                    "calculator.total_area": 1,
+                    "calculator.average_perimeter": 1,
+                    "calculator.find_largest_shape": 1,
+                    "print": 1,
+                    "largest.describe": 1
+                },
+                "Fan out": {
+                    "main": 9
+                },
+                "CC": {
+                    "main": 2
+                },
+                "Length of Identifier": 8.71875
+            }
+        }
+    },
+    "9e149dd0d75c52d525c0f521b16201a92834aa53": {
+        "date": "2025-06-02T12:04:32+00:00",
+        "metrics": {
+            "Shape_Calculator.py": {
+                "LOC": 27,
+                "Fan in": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 0,
+                    "isinstance": 1,
+                    "TypeError": 1,
+                    "append": 1,
+                    "len": 2,
+                    "ShapeCalculator.total_area": 0,
+                    "shape.area": 3,
+                    "ShapeCalculator.average_perimeter": 0,
+                    "sum": 1,
+                    "shape.perimeter": 1,
+                    "ShapeCalculator.find_largest_shape": 0,
+                    "max": 1,
+                    "ShapeCalculator.find_smallest_shape": 0,
+                    "min": 1
+                },
+                "Fan out": {
+                    "ShapeCalculator.__init__": 0,
+                    "ShapeCalculator.add_shape": 4,
+                    "ShapeCalculator.total_area": 1,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "CC": {
+                    "ShapeCalculator.__init__": 1,
+                    "ShapeCalculator.add_shape": 2,
+                    "ShapeCalculator.total_area": 2,
+                    "ShapeCalculator.average_perimeter": 3,
+                    "ShapeCalculator.find_largest_shape": 2,
+                    "ShapeCalculator.find_smallest_shape": 2
+                },
+                "Length of Identifier": 5.903225806451613
+            },
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            }
+        }
+    },
+    "d331e277639f48e4f36ba380333dd282c9040202": {
+        "date": "2025-06-02T12:04:40+00:00",
+        "metrics": {
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            }
+        }
+    },
+    "f795df97fda1d704e595bee6b0e4af15ffdb67bd": {
+        "date": "2025-06-02T12:06:05+00:00",
+        "metrics": {
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            }
+        }
+    },
+    "65034926b4ce8e325cbca5ba4d276dfad5862c9e": {
+        "date": "2025-06-02T12:06:19+00:00",
+        "metrics": {
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            }
+        }
+    },
+    "a7b0c2d6ab64302224c2180d93c1d39477a0f23f": {
+        "date": "2025-08-17T13:12:56+00:00",
+        "metrics": {
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
+            }
+        }
+    },
+    "76c3c6e6451a28cb749712fbf736de5eca2e8db8": {
+        "date": "2025-08-17T13:13:48+00:00",
+        "metrics": {
+            "Shape_Rectangle.py": {
+                "LOC": 18,
+                "Fan in": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 0,
+                    "Rectangle.__init__": 0,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "Fan out": {
+                    "Shape.__init__": 0,
+                    "Shape.area": 0,
+                    "Shape.perimeter": 0,
+                    "Shape.describe": 2,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 0,
+                    "Rectangle.perimeter": 0
+                },
+                "CC": {
+                    "Shape.__init__": 1,
+                    "Shape.area": 1,
+                    "Shape.perimeter": 1,
+                    "Shape.describe": 1,
+                    "Rectangle.__init__": 1,
+                    "Rectangle.area": 1,
+                    "Rectangle.perimeter": 1
+                },
+                "Length of Identifier": 5.2
+            },
+            "Square.py": {
+                "LOC": 11,
+                "Fan in": {
+                    "Square.__init__": 0,
+                    "range": 1,
+                    "Rectangle.__init__": 1
+                },
+                "Fan out": {
+                    "Square.__init__": 2
+                },
+                "CC": {
+                    "Square.__init__": 4
+                },
+                "Length of Identifier": 4.7
             }
         }
     }
